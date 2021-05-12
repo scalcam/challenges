@@ -1,7 +1,8 @@
 <mat-tab-group [backgroundColor]="background">
-    <mat-tab label="First">
+    <mat-tab label="Pizza Slices">
         <ng-template matTabContent>
             Content 1 - Loaded: {{getTimeLoaded(1) | date:'medium'}}
+            <app-pizza-slices></app-pizza-slices>
         </ng-template>
     </mat-tab>
     <mat-tab label="Second">
