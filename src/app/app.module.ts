@@ -10,14 +10,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ChallengesPageComponent } from './challenges-page/challenges-page.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         ToolbarComponent,
         MainPageComponent,
-        ChallengesPageComponent
     ],
     imports: [
         BrowserModule,
